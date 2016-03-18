@@ -1,5 +1,7 @@
 # react-globalize
 
+[![Build Status](https://travis-ci.org/jquery-support/react-globalize.svg?branch=master)](https://travis-ci.org/jquery-support/react-globalize)
+
 [React](http://facebook.github.io/react/) components that provide internationalization features via [Globalize](https://github.com/jquery/globalize). With a little initialization, you get instantly internationalized values in your application.
 
 ## Install
@@ -192,7 +194,7 @@ Element Replacement.
 </FormatMessage>
 // Which would render:
 // <span>
-//   For more information, see 
+//   For more information, see
 //   <a href="https://github.com/jquery-support/react-globalize">React Globalize</a>
 // </span>
 // when using the default message, in this case `en` (English).
