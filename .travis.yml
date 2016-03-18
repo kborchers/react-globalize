@@ -2,3 +2,4 @@ language: node_js
 node_js: "5.1"
 before_script:
   - npm install -g grunt-cli
+script: npm run test-travis

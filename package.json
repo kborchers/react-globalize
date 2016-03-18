@@ -11,7 +11,8 @@
     "src/"
   ],
   "scripts": {
-    "test": "grunt test"
+    "test-travis": "grunt test && npm run install-temp-checker",
+    "check-authors-travis": "check-authors-certificate pr=true"
   },
   "keywords": [
     "react",
@@ -40,6 +41,7 @@
     "babel-preset-react": "^6.5.0",
     "babel-register": "^6.7.2",
     "chai": "^3.5.0",
+    "check-authors-certificate": "file:temp\\check-authors-certificate.js\\",
     "cldr-data": ">=25",
     "cldrjs": "^0.4.3",
     "enzyme": "^1.2.0",
